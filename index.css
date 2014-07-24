@@ -14,11 +14,6 @@ header {
   height: 500px;
 }
 
-header:hover {
-
-}
-
-
 header p {
   text-align: center;
   color: #083451;
@@ -45,12 +40,13 @@ header h1 {
   font-family: sans-serif;
   text-decoration: none;
   color: #083451;
+  vertical-align: 54%;
 }
 
 .about_search {
   display: inline-block;
   float: right;
-  margin: 20px 100px;
+  margin: 26px 100px;
 }
 
 .about_search a {
@@ -59,7 +55,14 @@ header h1 {
   font-size: 1em;
   padding: 5px;
   text-decoration: none;
+  vertical-align: 20%;
+  margin-right: -8px
 }
+
+.about_search img {
+  height: 19px;
+}
+
 
 .blog_link a:hover, .about_search a:hover {
   color: white;
@@ -159,7 +162,14 @@ header h1 {
   left: 4px;
 }
 
-/** Still need to finish icon styling **/
+.icon_links a:hover {
+  background-color: #106db3;
+}
+
+.icon_links img:hover {
+  background-color: #083452;
+
+}
 
 .profile_pic {
   margin: 50px 0px;
@@ -189,6 +199,10 @@ header h1 {
   text-decoration: none;
   color: grey;
   font-family: sans-serif;
+}
+
+.social_media a:hover, .link:hover {
+  color: #106db3;
 }
 
 .side_bar2 img {
@@ -269,16 +283,9 @@ header h1 {
 }
 
 .post_image img {
-  position: relative;
   width: 25%;
   height: 325px;
   float: left;
-}
-
-.post_image span {
-  position: absolute;
-  bottom: 10px;
-  left: 10px;
 }
 
 footer {
@@ -290,7 +297,7 @@ footer {
 footer ul {
   display: inline-block;
   float: right;
-  margin-top: 38px;
+  margin-top: 42px;
   margin-right: 50px;
 }
 
@@ -308,8 +315,8 @@ footer a, p {
 
 footer p {
   display: inline-block;
-  margin-top: 38px;
-  margin-left: 50px;
+  margin-left: 5px;
+  vertical-align: 77%;
 }
 
 footer a {
@@ -323,4 +330,9 @@ footer li:last-child {
 
 footer a:hover {
   color: white;
+}
+
+footer img {
+  height: 45px;
+  margin: 25px 0px 0px 36px;
 }
