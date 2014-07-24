@@ -1,0 +1,318 @@
+body {
+  margin:0;
+}
+
+header {
+  background-image: linear-gradient(
+      rgba(27, 117, 186, 0.8),
+      rgba(27, 117, 186, 0.8)),
+    url('http://hdw.datawallpaper.com/nature/crashing-wave-desktop-background-336996.jpg');
+  background-size: 100%;
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  height: 500px;
+}
+
+
+header p {
+  text-align: center;
+  color: #083451;
+  font-family: sans-serif;
+  margin-top: 0;
+}
+
+header h1 {
+  font-weight: normal;
+  text-align: center;
+  margin-top: 10%;
+  margin-bottom: 0;
+  font-size: 6em;
+  color: white;
+  font-family: sans-serif;
+}
+
+.blog_link {
+  display: inline-block;
+  margin: 20px 100px;
+}
+
+.blog_link a {
+  font-family: sans-serif;
+  text-decoration: none;
+  color: #083451;
+}
+
+.about_search {
+  display: inline-block;
+  float: right;
+  margin: 20px 100px;
+}
+
+.about_search a {
+  font-family: arial;
+  color: #083451;
+  font-size: 1em;
+  padding: 5px;
+  text-decoration: none;
+}
+
+/** Beginning of Main Content **/
+
+.content_container {
+  width: 46%;
+  display: inline-block;
+  margin: 0px 100px 0px 150px;
+}
+
+.sidebar {
+  display: inline-block;
+  width: 30%;
+  vertical-align: top;
+}
+
+.content_container h1 {
+  color: #083452;
+  font-family: futura;
+  font-weight: normal;
+  margin-bottom: 0px;
+  font-size: 2.5em;
+}
+
+.content_container .profile_heading img{
+  background: rgba(27, 117, 186, 1);
+  display: inline-block;
+  border: 1px solid white;
+  border-radius: 100%;
+  width: 20px;
+  height: 20px;
+}
+
+.profile_heading p, span {
+  display: inline-block;
+  color: grey;
+}
+
+.profile_heading span {
+  text-decoration: underline;
+}
+
+.profile_heading a {
+  text-decoration: none;
+  color: #106db3;
+  font-family: sans-serif;
+}
+
+.content_container p {
+  color: grey;
+  font-family: sans-serif;
+  font-size: 19px;
+  line-height: 1.5;
+}
+
+.content_container span a {
+  color: grey;
+  text-decoration: underline;
+}
+
+.content_container h2 {
+  border-left: 2px solid grey;
+  color: #106db3;
+  padding: 15px;
+  font-family: futura;
+}
+
+.blog_links {
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.icon_links {
+  display: inline-block;
+  padding-right: 10px;
+}
+
+.icon_links a {
+  text-decoration: none;
+  font-family: sans-serif;
+  background-color: #BFBFBF;
+  color: white;
+  font-size: 14px;
+  padding:4px;
+}
+
+.icon_links img {
+  margin-bottom: 0px;
+  width: 24px;
+  height: 24px;
+  background-color: #787878;
+  position: relative;
+  top: 7px;
+  left: 4px;
+}
+
+/** Still need to finish icon styling **/
+
+.profile_pic {
+  margin: 50px 0px;
+  text-align: center;
+}
+
+.profile_pic img {
+  border: 1px solid white;
+  border-radius: 100%;
+  height: 100px;
+  width: 100px;
+  display: block;
+  margin-bottom: 15px;
+  margin-left: 134px;
+}
+
+.profile_pic .link {
+  display: block;
+  text-decoration: none;
+  font-family: sans-serif;
+  color: grey;
+  margin-bottom: 20px;
+}
+
+.profile_pic .social_media a {
+  margin-right: 10px;
+  text-decoration: none;
+  color: grey;
+  font-family: sans-serif;
+}
+
+.side_bar2 img {
+  display: block;
+  width: 250px;
+  height: 323px;
+}
+
+.opacity {
+  background-color: rgba(20,109,180,1);
+  width: 250px;
+  margin-left: 66px;
+}
+
+.image_hover {
+  opacity: .5;
+}
+
+.image_hover:hover {
+  opacity: 1;
+}
+
+.side_bar2  .link{
+  margin-left: 215px;
+  font-family: sans-serif;
+  color: grey;
+}
+
+.side_bar2 h5 {
+  font-size: 20px;
+  color: #106db3;
+  font-weight: normal;
+  font-family: futura;
+  margin-bottom: 0;
+}
+
+.side_bar2 p {
+  font-family: sans-serif;
+  font-size: 19px;
+  line-height: 1.5;
+  color: grey;
+}
+
+.side_bar2 p a {
+  color: grey;
+}
+
+.side_bar2 p, .side_bar2 h5 {
+  margin-left: 64px;
+}
+
+.bottom_nav {
+  width: 100%;
+  height: 325px;
+  display: inline-block;
+  background-color: rgba(20,109,180,1);
+
+}
+
+.bottom {
+  display: block;
+  width: 100%;
+  border-top: 1px solid grey;
+  margin-top: 100px;
+}
+
+.bottom h1 {
+  display: block;
+  font-size: 4em;
+  font-family: futura;
+  font-weight: normal;
+  text-align: center;
+  color: #083452;
+}
+
+.post_image {
+  background-color: rgba(20,109,180,1);
+}
+
+.post_image img {
+  position: relative;
+  width: 25%;
+  height: 325px;
+  float: left;
+}
+
+.post_image span {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+footer {
+  background-color: #083452;
+  min-height: 100px;
+  margin-top: -4px;
+}
+
+footer ul {
+  display: inline-block;
+  float: right;
+  margin-top: 38px;
+  margin-right: 50px;
+}
+
+footer li {
+  display: inline-block;
+  border-right: 2px solid grey;
+}
+
+footer a, p {
+  text-decoration: none;
+  color:grey;
+  font-family: sans-serif;
+  font-size: 15px;
+}
+
+footer p {
+  display: inline-block;
+  margin-top: 38px;
+  margin-left: 50px;
+}
+
+footer a {
+  padding: 20px 10px;
+  line-height: .5;
+}
+
+footer li:last-child {
+  border-right: none;
+}
+
+footer a:hover {
+  color: white;
+}
