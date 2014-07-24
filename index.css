@@ -14,6 +14,10 @@ header {
   height: 500px;
 }
 
+header:hover {
+
+}
+
 
 header p {
   text-align: center;
@@ -55,6 +59,10 @@ header h1 {
   font-size: 1em;
   padding: 5px;
   text-decoration: none;
+}
+
+.blog_link a:hover, .about_search a:hover {
+  color: white;
 }
 
 /** Beginning of Main Content **/
