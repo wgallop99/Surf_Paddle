@@ -197,7 +197,8 @@ header {
     .bottom .bottom_nav .post_image {
       background-color: #146db4; }
       .bottom .bottom_nav .post_image .image_hover {
-        opacity: 0.5; }
+        opacity: 0.5;
+        transition: all 1s ease; }
       .bottom .bottom_nav .post_image .image_hover:hover {
         opacity: 1; }
       .bottom .bottom_nav .post_image img {
